@@ -1,0 +1,82 @@
+<html>
+ <title>Home Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="web_image/title_logo.png" type="image/icon type">
+  <link rel="stylesheet" href="web.css" >
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script> 
+   <style>
+   body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    }
+   *{
+   margin:0px;
+   padding:0px;
+   box-sizing:border-box;
+   font-family:times new roman;
+    }
+   body,html{
+    witdh:100%;
+   }	
+   .main{
+   width:80%;
+   margin:30px auto;
+         word-break:break-all;
+    }
+	
+  .img_style{
+    height:130px;
+	width:30%;
+    }	
+	
+	 @media only screen and (max-width:600px){
+ 
+     .img_style{
+	   width:80%;
+	  }
+	  .main{
+	   width:90%;
+	  }
+	 }
+
+	@keyframes gradient {
+	 0% {
+	   	 background-position: 0% 50%;
+	  }
+	50% {
+		background-position: 100% 50%;
+	 }
+	100% {
+		background-position: 0% 50%;
+	}
+  }
+   </style>
+  </head>
+  <body>
+   
+   
+    
+	<div class="main bg-dark p-4 text-center text-white" >
+    <header class="p-1 mb-4 font-30 text-white  text-center bg-dark">About</header>
+  
+      <br>
+		<img src="5.jpeg" class="rounded-lg img_style">
+		
+		<div class="container mt-5 mb-5 font-26 w-80">
+		 ownCloud is a suite of client–server software for creating and using file hosting services. ownCloud functionally has similarities to the widely used Dropbox. The primary functional difference between ownCloud and Dropbox is that ownCloud does not offer data centre capacity to host stored files. The Server Edition of ownCloud is free and open-source, thereby allowing anyone to install and operate it without charge on their own private server.
+
+ownCloud supports extensions that allow it to work like Google Drive, with online document editing, calendar and contact synchronization, and more. Its openness avoids enforced quotas on storage space or the number of connected clients, instead having hard limits (like on storage space or number of users) defined only by the physical capabilities of the server.
+</br><br><br><a href="https://en.wikipedia.org/wiki/OwnCloud" class="btn btn-warning btn-sm" target="_blank"> Know More About ownCloud </a>		
+</div>
+
+      	  
+    </div>
+   
+  </body>
+ </html>
